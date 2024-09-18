@@ -1,6 +1,7 @@
 name: Generate SoH Archive
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
 
